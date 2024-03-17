@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prime-sign-in.html</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<style>
+   *{
+margin: 0px;
+padding: 0px;
+   }
+
+  body{
+background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://geex.x-kom.pl/wp-content/uploads/2022/05/amazon-originals-tv-shows.jpg);
+background-size: cover;
+background-position: center;
+  } 
+   #container{
+  max-width:60%;
+  margin: 0px auto;
+border:solid 2px yellow;
+padding: 10px;
+background-color:white;    
+
+
+
+}
+#head{
+ max-width: 100%;
+ margin: 0px auto;   
+ height: 120px;
+ background-color:white;
+ padding: 5px;
+}   
+
+    header img{
+max-width: 100%;
+margin: 0px auto;
+height: 110px;   
+}
+#pic-1{
+max-width: 100%;
+margin: 0px auto;
+height: 110px;
+padding: 10px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div id="head"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Amazon.com-Logo.svg/1280px-Amazon.com-Logo.svg.png" alt="" id="pic-1"></div>
+    </header>
+<br><br>
+    <div id="container">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Amazon Password">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Show Password</label>
+            </div>
+          
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">keep me signed in</label>
+              </div>
+          
+          
+          
+            <button type="submit" class="btn btn-warning">Sign-In</button>
+          </form>
+
+
+    </div>
+
+
+
+<script src="jquery.js"></script>
+<script src="popper.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
